@@ -68,3 +68,34 @@ print(b)
 help(input)
 help(int)
 help(print)
+# Homework 1
+
+land = float(input("Price of the land?: "))
+building = float(input("Price of the building?: "))
+subtotal = land + building
+vat = subtotal * 0.21
+total = subtotal + vat
+print(f"The total cost of the project is: {total}")
+
+# Homework 2
+t = 70.5
+s = 20.89
+v = 100.3
+print("*** Welcome to the checkout system. ***")
+trousers = int(input("How many trousers have been bought? "))
+Tshirts = int(input("How many T-shirts have been bought? "))
+vests = int(input("How many vests have been bought? "))
+total = trousers * t + Tshirts * s + vests * v
+print(f"Total amount to pay: {total}")
+
+# Homework 3 
+t = 70.5
+s = 20.89
+v = 100.3
+print("*** Welcome to the checkout system. ***")
+trousers = int(input("How many trousers have been bought? "))
+Tshirts = int(input("How many T-shirts have been bought? "))
+vests = int(input("How many vests have been bought? "))
+total = trousers * t + Tshirts * s + vests * v
+print(f"You have bought\n\tTrousers: {trousers} pair(s)\n\tT-shirts: {Tshirts} piece(s)\n\tVests: {vests} piece(s)")
+print(f"Total: {total}")
